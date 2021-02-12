@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "cabin";
+    src: url("/assets/Cabin-VariableFont_wdth\,wght.woff") format("woff"); 
+  }
+
+@font-face {
+    font-family: "bebaseneue";
+    src: url("/assets/BebasNeue-Regular.woff") format("woff"); 
+}
+
+h1 {
+    font-size: 20em;
+    font-family: bebaseneue;
+    padding-left: .1em;
+}
+
+p {
+    font-size: 2em;
+    font-family: cabin;
+    padding: 0px;
+    padding-left: 1.5em;
+}
+
+button {
+    position: absolute;
+    font-size: 2em;
+    font-family: cabin;
+    left: 40em;
+    top: 20em;
+    border: solid black;
+    background-color: black;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    transition: 200ms ease all;
+}
+
+button:hover {
+    background-color: white;
+    color: black
+}
