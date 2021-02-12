@@ -32,10 +32,10 @@ button {
     color: white;
     padding-left: 1em;
     padding-right: 1em;
-    transition: 200ms ease all;
 }
 
 button:hover {
+    transition: 200ms ease all;
     background-color: white;
     color: black
 }
